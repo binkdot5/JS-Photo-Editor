@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+    background-color: #000;
+}
+
+p {
+    font-size: 10pt;
+}
+
+body, main {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+main {
+    width: 60%;
+    height: 800px;
+    background-color: #1d1d1d;
+}
+
+aside {
+    width: 30%;
+    height: 800px;
+    background-color: #1d1d1d;
+    position: absolute;
+    top: 15px;
+    right: 150px;
+    
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    color: #000;
+    margin: 20px;
+    flex-direction: row;
+}
+
+.button {
+    position: relative;
+    left: 3%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#img-default {
+    width: 80%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+#input-img {
+    padding-top: 40px;
+    padding-left: 100px;
+}

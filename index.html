@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JS Photo Editor</title>
+<meta name="author" content="binkdot5">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i&display=swap" rel="stylesheet">    
+</head>
+
+<body>
+    
+    <main>
+        <h3 style="text-transform: uppercase; text-align: center; padding-top: 50px;"> Drop a photo </h3>
+        <img id="img-default" alt="image.jpg" src="images/ashkan-forouzani-unsplash.jpg">
+        <p><span id="display"> </span></p>
+<!--
+        <form id="input-img"method="post" enctype="multipart/form-data" action="/uploadImage"><input type="file" id="input-file" onClick = "showDisplay ();" name="image" accept="image/png, image/jpeg, image/jpg, image/gif, image/svg, image/bmp"/>
+        </form>    
+-->
+    </main>
+    
+    <aside>
+    <h3 style="text-transform: uppercase; text-align: center; padding-top: 10px;"> Apply Filters </h3>
+    <p style="width: 80%; padding-left: 50px; text-align: center;"> Click on a button to apply filters. <br /> Click the Reset button to restore the image.</p>    
+        <br />
+        <br />
+        <button class="button" id="grayscale">Grayscale</button>
+        <button class="button" id="brightness">Brightness</button>
+        <button class="button" id="sepia">Sepia</button>
+        <button class="button" id="saturate">Saturate</button>
+        <button class="button" id="blur">Blur</button>
+        <button class="button" id="opacity">Opacity</button>
+        <button class="button" id="hue">Hue</button>
+        <button class="button" id="invert">Invert</button>
+        <button class="button" id="reset">Reset Image</button>
+    </aside>
+
+<script src="js/main.js"></script>
+
+<!--
+    <script lang="JavaScript">
+    function showDisplay () {
+        document.querySelector ("#display").innerHTML = document.querySelector ("#input-file").value;
+    }
+    </script>
+-->
+    
+</body>
+</html>
